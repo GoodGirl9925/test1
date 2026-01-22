@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+torch
+transformers
+sentence-transformers
+langchain-community
+chromadb
+FlagEmbedding
+numpy

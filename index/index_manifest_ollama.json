@@ -1,0 +1,16 @@
+{
+  "jsonl": "data/parsed_docs.jsonl",
+  "persist_dir": "index/chroma",
+  "collection": "rag_docs_ollama",
+  "ollama_host": "http://127.0.0.1:11434",
+  "embedding_model": "nomic-embed-text",
+  "chunk_params": {
+    "max_tokens_text": 650,
+    "overlap_tokens_text": 100,
+    "max_tokens_table": 900,
+    "max_tokens_figure": 450
+  },
+  "total_records": 146,
+  "total_chunks_built": 296,
+  "total_chunks_added": 296
+}
